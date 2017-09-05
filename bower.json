@@ -1,0 +1,23 @@
+{
+  "name": "videoheroku",
+  "description": "Video Player with Angular",
+  "main": "js/main.js",
+  "authors": [
+    "Matthew Rumschlag"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "videogular": "^1.4.4",
+    "videogular-themes-default": "^1.4.4"
+  }
+}

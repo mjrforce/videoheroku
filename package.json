@@ -1,0 +1,35 @@
+{
+  "name": "videoheroku",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "description": "Video Player with Angular",
+  "main": "js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjrforce/videoheroku.git"
+  },
+  "author": "Matthew Rumschlag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjrforce/videoheroku/issues"
+  },
+  "homepage": "https://github.com/mjrforce/videoheroku#readme",
+  "dependencies": {
+    "videogular": "^2.2.1",
+    "videogular-angulartics": "^1.4.4",
+    "videogular-buffering": "^1.4.4",
+    "videogular-controls": "^1.4.4",
+    "videogular-dash": "^1.4.4",
+    "videogular-ima-ads": "^1.4.4",
+    "videogular-overlay-play": "^1.4.4",
+    "videogular-poster": "^1.4.4",
+    "videogular-themes-default": "^1.4.4"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1"
+  }
+}
